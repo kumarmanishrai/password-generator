@@ -76,6 +76,7 @@ function App() {
       {/* Password and Copy section */}
       <div className="clipboard">
         <p>{password}</p>
+        <br></br>
         <button 
           onClick={() => {
             navigator.clipboard.writeText(password)

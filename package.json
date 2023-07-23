@@ -1,5 +1,6 @@
 {
   "name": "password-generator",
+  "homepage": "https://kumarmanishrai/.github.io/password-generator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
