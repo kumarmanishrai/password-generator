@@ -1,6 +1,34 @@
 .main{
     display: flex;
     justify-content: center;
+    width: max-content;
+    padding: 2vw;
+    margin: 10vh auto;
     align-items: center;
     flex-direction: column;
+    border: 2px solid red;
+    gap: 4vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 1vw;
+    border: 2px solid rgb(153, 153, 227);
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.clipboard{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+    justify-content: space-between;
 }
